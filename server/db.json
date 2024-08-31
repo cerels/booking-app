@@ -1,0 +1,36 @@
+{
+    "customers": [
+      { "id": 1, "name": "John Doe", "email": "john.doe@example.com", "phone": "123-456-7890", "address": "123 Main St", "member_since": "2022-01-15" },
+      { "id": 2, "name": "Jane Smith", "email": "jane.smith@example.com", "phone": "987-654-3210", "address": "456 Oak Ave", "member_since": "2021-11-20" },
+      { "id": 3, "name": "Michael Johnson", "email": "michael.johnson@example.com", "phone": "555-123-4567", "address": "789 Pine Rd", "member_since": "2023-02-10" },
+      { "id": 4, "name": "Emily Davis", "email": "emily.davis@example.com", "phone": "444-987-6543", "address": "321 Maple Dr", "member_since": "2022-09-05" },
+      { "id": 5, "name": "Sarah Brown", "email": "sarah.brown@example.com", "phone": "222-333-4444", "address": "654 Cedar Ln", "member_since": "2023-07-25" }
+    ],
+    "services": [
+      { "id": 1, "name": "Haircut", "price": 30, "duration": 45, "category": "Hair", "description": "A standard haircut for men and women." },
+      { "id": 2, "name": "Massage", "price": 50, "duration": 60, "category": "Wellness", "description": "A relaxing full-body massage." },
+      { "id": 3, "name": "Manicure", "price": 25, "duration": 30, "category": "Nails", "description": "A standard manicure with nail polish." },
+      { "id": 4, "name": "Pedicure", "price": 35, "duration": 45, "category": "Nails", "description": "A relaxing pedicure with foot massage." },
+      { "id": 5, "name": "Facial", "price": 40, "duration": 60, "category": "Skin Care", "description": "A rejuvenating facial treatment." }
+    ],
+    "providers": [
+      { "id": 1, "name": "Alice", "service_id": 1, "experience": 5, "rating": 4.7, "phone": "111-222-3333", "email": "alice@example.com" },
+      { "id": 2, "name": "Bob", "service_id": 2, "experience": 8, "rating": 4.9, "phone": "222-333-4444", "email": "bob@example.com" },
+      { "id": 3, "name": "Charlie", "service_id": 3, "experience": 3, "rating": 4.5, "phone": "333-444-5555", "email": "charlie@example.com" },
+      { "id": 4, "name": "Diana", "service_id": 4, "experience": 7, "rating": 4.8, "phone": "444-555-6666", "email": "diana@example.com" },
+      { "id": 5, "name": "Eve", "service_id": 5, "experience": 6, "rating": 4.6, "phone": "555-666-7777", "email": "eve@example.com" }
+    ],
+    "appointments": [
+      { "id": 1, "customer_id": 1, "provider_id": 1, "service_id": 1, "date": "2024-08-20T10:00:00Z", "status": "Confirmed", "notes": "Prefers a trim only." },
+      { "id": 2, "customer_id": 2, "provider_id": 2, "service_id": 2, "date": "2024-08-21T14:00:00Z", "status": "Completed", "notes": "Enjoyed the massage, will return." },
+      { "id": 3, "customer_id": 3, "provider_id": 3, "service_id": 3, "date": "2024-08-22T11:30:00Z", "status": "Pending", "notes": "Wants nail art design." },
+      { "id": 4, "customer_id": 4, "provider_id": 4, "service_id": 4, "date": "2024-08-23T09:00:00Z", "status": "Confirmed", "notes": "First-time customer, referred by friend." },
+      { "id": 5, "customer_id": 5, "provider_id": 5, "service_id": 5, "date": "2024-08-24T16:00:00Z", "status": "Cancelled", "notes": "Cancelled due to illness." },
+      { "id": 6, "customer_id": 1, "provider_id": 2, "service_id": 2, "date": "2024-08-25T13:00:00Z", "status": "Confirmed", "notes": "Requesting deep tissue massage." },
+      { "id": 7, "customer_id": 2, "provider_id": 3, "service_id": 3, "date": "2024-08-26T15:00:00Z", "status": "Completed", "notes": "Wants same design next time." },
+      { "id": 8, "customer_id": 3, "provider_id": 4, "service_id": 4, "date": "2024-08-27T12:00:00Z", "status": "Confirmed", "notes": "Prefers a hot stone pedicure." },
+      { "id": 9, "customer_id": 4, "provider_id": 5, "service_id": 5, "date": "2024-08-28T10:00:00Z", "status": "Completed", "notes": "Satisfied with the facial, glowing skin." },
+      { "id": 10, "customer_id": 5, "provider_id": 1, "service_id": 1, "date": "2024-08-29T17:00:00Z", "status": "Pending", "notes": "Returning customer, same as last time." }
+    ]
+  }
+   
